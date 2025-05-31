@@ -48,3 +48,22 @@ source venv/bin/activate  # For Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 ```
+
+## Postman Collection for API Testing
+
+A Postman collection file `MockYouTubeAPI.postman_collection.json` is included for easy testing of the API.
+
+### What is it?
+
+- Predefined requests for all CRUD operations on videos.
+- Import into Postman to quickly test API endpoints without coding.
+
+### How to use?
+
+1. Open Postman and click **Import**.
+2. Select `MockYouTubeAPI.postman_collection.json`.
+3. Update the API base URL if needed (default: `http://127.0.0.1:5000/`).
+4. Run requests to test functionality.
+
+This helps verify endpoints, experiment with data, and share tests with others easily.
+
