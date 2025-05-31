@@ -37,12 +37,13 @@ git clone https://github.com/yourusername/mock-youtube-api.git
 cd mock-youtube-api
 ```
 
-### 2. Install dependencies and Run 
+### 2. Create a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 ```
 
+### 3. Install dependencies and Run 
 ```bash
 pip install -r requirements.txt
 python main.py
